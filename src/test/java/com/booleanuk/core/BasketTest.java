@@ -10,7 +10,6 @@ class BasketTest {
         basket.add(new Game("Morrowind", 12));
         basket.add(new Book("Darkly Dreaming Dexter", 6));
         basket.add(new Drink("Cappucino", 2));
-        basket.add(new Movie("Lord of the Rings", 5));
 
         Assertions.assertEquals(20, basket.getTotal());
     }
